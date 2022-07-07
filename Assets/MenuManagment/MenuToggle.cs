@@ -20,6 +20,7 @@ public class MenuToggle : MonoBehaviour
         if (currentMenu)
         {
             menuManager.DeactivateOtherMenu();
+            currentMenu = true;
         }
         menuManager.ManageMenus();
     }
